@@ -1,2 +1,2 @@
 # mcp-web-discovery
-Model Context Protocol for the web
+A standard publishing and discovery method for websites to integrate Model Context Protocol.
