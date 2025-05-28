@@ -5,7 +5,7 @@
 ---
 
 
-## What is it?
+## ✨ What is it?
 
 Model Context Protocol (MCP) lets agents query rich, structured resources over
 JSON‑RPC. **What’s missing is a way for the open web to *advertise* an MCP
@@ -27,7 +27,7 @@ This repo provides:
 
 <br>
 
-## 0. Why you need this 
+## 0. Why you need this ⚡️
 
 | Old Web Reality | AI‑Native Reality (with **mcpwd**) |
 |-----------------|------------------------------------|
