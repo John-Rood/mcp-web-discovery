@@ -71,10 +71,10 @@ Let AI find you.
 
 #### Next.js / Vercel (static export)
 1. Drop your mcp-metadata.json into public/.well-known/.
-2. Add the <link> tag to /app/_document.tsx.
+2. Add the `<link>` tag to /app/_document.tsx.
 
 #### WordPress
-Use an “Insert Headers and Footers” plugin to paste the <link> tag; upload the
+Use an “Insert Headers" plugin to paste the `<link>` tag; upload the
 JSON via Media Library or your server.
 
 ```html
