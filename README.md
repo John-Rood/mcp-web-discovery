@@ -6,6 +6,7 @@
 
 
 ## ✨ What is it?
+## ✨ What is it?
 
 Model Context Protocol (MCP) is how agents and AI tools connect to your server—whether to ask questions, invoke tools, or retrieve structured data from a vector database.
 But until now, **there’s been no standard way for the open web to <i>advertise</i> an MCP server**—meaning AI systems like ChatGPT, Claude, and Perplexity have no way to discover your endpoint automatically.
