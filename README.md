@@ -5,7 +5,7 @@
 ---
 
 
-## ✨ What is this?
+## ✨ What is it?
 
 Model Context Protocol (MCP) lets agents query rich, structured resources over
 JSON‑RPC. **What’s missing is a way for the open web to *advertise* an MCP
