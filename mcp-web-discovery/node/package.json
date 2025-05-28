@@ -1,0 +1,14 @@
+{
+    "name": "mcpweb",
+    "version": "0.1.1",
+    "description": "Express middleware for MCP Web Discovery",
+    "main": "mcpweb/express-middleware.js",
+    "keywords": ["mcp", "ai", "web", "discovery", "middleware"],
+    "author": "John Rood <john@johnrood.com>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/John-Rood/mcp-web-discovery"
+    }
+  }
+  

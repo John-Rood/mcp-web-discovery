@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcpweb"
+version = "0.1.0"
+description = "FastAPI middleware for MCP Web Discovery"
+authors = [{ name = "John Rood", email = "john@johnrood.com" }]
+license = { text = "MIT" }
+dependencies = [
+  "fastapi>=0.110",
+]
+
+[project.urls]
+Source = "https://github.com/John-Rood/mcp-web-discovery"
+

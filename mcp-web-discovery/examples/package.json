@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "mcpweb": "^0.1.1"
+  }
+}
