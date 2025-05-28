@@ -5,29 +5,41 @@
 ---
 
 
-## What is it?
+## ✨ What is it?
 
-Model Context Protocol (MCP) lets agents query rich, structured resources over
-JSON‑RPC. **What’s missing is a way for the open web to *advertise* an MCP
-endpoint**—so ChatGPT, Claude, Perplexity, or your own agent can find it
-automatically.
+Model Context Protocol (MCP) is how agents and AI tools connect to your server—whether to ask questions, invoke tools, or retrieve structured data from a vector database.
+But until now, **there’s been no standard way for the open web to <i>advertise</i> an MCP server**—meaning AI systems like ChatGPT, Claude, and Perplexity have no way to discover your endpoint automatically.
 
-This repo provides:
+This project fixes that.
 
-* **Two dead‑simple discovery methods**  
-  1. **Well‑known JSON** – `/.well-known/mcp-metadata.json`  
-  2. **HTML `<link rel="mcp-server">` tag** in any page header  
-* **Reference middleware** for FastAPI, Express, and Cloudflare Workers  
-* **Copy‑paste JSON examples** (minimal → fully‑featured)  
-* MIT‑licensed code you can drop into any stack
+It introduces **MCP Web Discovery**, a simple convention that makes your MCP server visible to LLMs and agents, using:
+
+* **A well‑known JSON file** → `/.well-known/mcp-metadata.json`
+
+* **A one‑line HTML header tag** → `<link rel="mcp-server" href="...">`
+
+#### Plus:
+
+* Ready-to-use middleware for FastAPI, Express, and Cloudflare Workers
+
+* Minimal and maximal JSON examples to copy and deploy
+
+* A lightweight, standards-aligned solution with zero vendor lock-in
 
 <br>
+
+MIT-licensed. 
+<br>
+Plug it into any stack.
+<br>
+Let AI find you.
+
 
 ---
 
 <br>
 
-## 0. Why you need this 
+## 0. Why you need ths ⚡️
 
 | Old Web Reality | AI‑Native Reality (with **mcpwd**) |
 |-----------------|------------------------------------|
