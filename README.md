@@ -40,7 +40,7 @@ Let AI find you.
 
 ## 0. Why you need ths ⚡️
 
-| Old Web Reality | AI‑Native Reality (with **mcpwd**) |
+| Old Web Reality | AI‑Native Reality (with **mcpweb**) |
 |-----------------|------------------------------------|
 | **Google blue links ruled traffic.** | **Answer engines rule traffic.** Perplexity, ChatGPT, Claude, Cursor, etc. can *instantly* talk to your site via MCP. |
 | Crawlers scrape walls of HTML, guess context, often get it wrong. | You expose **one clean vector endpoint**; AI pulls the exact chunks you curated—no guessing, no hallucination. |
